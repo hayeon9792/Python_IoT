@@ -316,6 +316,10 @@ for i in range(0, 5, 1) :
 
 
 
+
+
+
+
 a, b, sum = 0, 0, 0
 
 a = int(input("시작값: "));

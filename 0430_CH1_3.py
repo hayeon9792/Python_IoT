@@ -118,3 +118,5 @@ Ms = int(input("수학 성적: "))
 print("총점은 %d이고, 평균은 %.2f점 입니다." % ((Ks+Es+Ms) , (Ks+Es+Ms)/3 ))
 
 
+
+
