@@ -190,4 +190,40 @@ for i in range(0, 9) :
 print("%s" % numbers);
 '''
 
+# selection sort 이용
+# 앞부터 가장 작은 값 or 가장 큰 값 찾아서 위치 교환
+'''
+for i in range(0, 10) :
+    temp = numbers[i]; # 첫 값도 저장
+    idx = i; # 첫 인덱스 저장
+    for j in range(i, 10) : # 다음 인덱스부터 끝까지 탐색하면서 지금 값(temp)보다 작은 값
+                            #  만나면 idx랑 temp값 갱신
+        if numbers[j] < temp :
+            idx = j;
+            temp = numbers[j];
+    numbers[idx] = numbers[i];
+    numbers[i] = temp;
+print("%s" % numbers);
+'''
+
 # insertion sort 이용
+# 가장 작은 값을 찾아서 앞에 넣기
+
+for i in range(0, 10) :
+
+
+
+'''
+import random
+
+arr1 = []
+arr2 = []
+
+for num in range(0,10) :
+    arr1.append(random.randrange(1,100));
+    arr2.append(random.randrange(1, 100));
+
+arr1.extend(arr2)
+
+print("생성된 리스트 %s" % arr1);
+'''
