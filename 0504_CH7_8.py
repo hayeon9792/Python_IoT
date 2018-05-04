@@ -82,6 +82,8 @@ for i in range(0,4) :
     
 '''
 
+'''
+
 foods = { "떡볶이" : "오뎅",
           "짜장면" : "단무지",
           "라면" : "김치",
@@ -95,3 +97,46 @@ while(True) :
         break;
     else :
         print("그런 음식이 없습니다.");
+        
+'''
+
+'''
+
+# 8단원
+str_1 = "abc";
+list_str = list(str_1);
+print(list_str);
+
+# 리스트를 스트링으로
+str_1 = str(list_str);
+print(str_1);
+
+'''
+
+'''
+# 문자열 거꾸로 저장 후 출력하기
+instr, outstr = "", "";
+instr = input("문자열 입력: ");
+count = len(instr);
+
+for i in range(0, count) :
+    # outstr[i] = instr[count-(i+1)];
+    outstr += instr[count-(i+1)];
+
+print(outstr);
+'''
+
+ss = input("문자열 입력==> ");
+print("출력 문자열==>", end="");
+
+if ss.startswith('(') == False :
+    print("(", end = "");
+
+print(ss, end = "");
+
+if ss.endswith(')') == False :
+    print(")", end = "");
+
+
+
+
