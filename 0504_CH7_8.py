@@ -100,7 +100,7 @@ while(True) :
         
 '''
 
-'''
+
 
 # 8단원
 str_1 = "abc";
@@ -111,7 +111,7 @@ print(list_str);
 str_1 = str(list_str);
 print(str_1);
 
-'''
+
 
 '''
 # 문자열 거꾸로 저장 후 출력하기
@@ -125,7 +125,7 @@ for i in range(0, count) :
 
 print(outstr);
 '''
-
+'''
 ss = input("문자열 입력==> ");
 print("출력 문자열==>", end="");
 
@@ -137,6 +137,6 @@ print(ss, end = "");
 if ss.endswith(')') == False :
     print(")", end = "");
 
-
+'''
 
 
